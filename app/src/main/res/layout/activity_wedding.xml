@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".wedding">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="414dp"
+        android:layout_height="73dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Wedding Planner"
+        android:textAlignment="center"
+        android:textColor="#48FF16"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="656dp"
+        android:paddingLeft="20sp"
+        android:paddingRight="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Initial Consultation: Meet with the couple to understand their vision, preferences, and budget. Discuss the date, venue, number of guests, and overall theme."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView188"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nBudgeting: Create a detailed budget that allocates funds for each aspect of the wedding, including venue, catering, attire, photography, decorations, and more. Keep track of expenses throughout the planning process."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8019"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nWedding Venue: Help the couple choose a suitable venue based on their preferences, guest count, and budget. Arrange visits to potential locations and negotiate contracts."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textV9iew19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nVendors Selection: Assist in selecting vendors like caterers, photographers, florists, musicians/DJs, and transportation services. Read reviews, check portfolios, and negotiate contracts."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t880extView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nWedding Timeline: Create a comprehensive timeline outlining all the events leading up to the wedding day, including engagement parties, dress fittings, rehearsal dinner, etc."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text88View19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nGuest List and Invitations: Help the couple compile a guest list and manage invitations. Coordinate RSVPs and keep track of attendees."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/te6876xtView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nWedding Theme and Design: Work with the couple to develop a cohesive theme and design for the wedding. This includes color schemes, decorations, and overall aesthetics."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex45tView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nWedding Attire: Assist the couple in selecting their wedding attire, including the bride's dress, groom's suit, bridesmaid dresses, and groomsmen attire."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/extView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCeremony and Reception: Plan the ceremony and reception, including seating arrangements, floor plan, and any special requirements like a stage or dance floor."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text57View19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCatering and Menu: Collaborate with the couple to create a delectable menu that suits their tastes and dietary preferences. Organize food and cake tastings."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textt87View19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nLogistics and Transportation: Arrange transportation for the wedding party and guests, if needed. Ensure smooth logistics for the day."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/te65xtView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nEntertainment and Music: Coordinate entertainment for the wedding day, such as live bands, DJs, or any other performances."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textV879iew19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nAccommodations: If the wedding involves out-of-town guests, secure hotel room blocks at nearby accommodations."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textVi7987ew19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nWedding Rehearsal: Organize and run the wedding rehearsal to ensure everyone knows their roles and the event runs smoothly."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tee5xtView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nWedding Day Coordination: Be present on the wedding day to oversee all arrangements, handle any unexpected issues, and ensure everything goes according to plan."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text45View19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nVendor Coordination: Communicate with vendors to confirm their services, arrival times, and requirements for the day."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textV657iew19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nEmergency Kit: Prepare an emergency kit with essentials like safety pins, sewing kit, stain remover, etc., to handle any last-minute mishaps."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex76576tView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nPost-Wedding Tasks: Help with tasks like returning rentals, managing post-wedding paperwork, and distributing vendor payments."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textV465iew19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nWedding Favors: Assist in selecting and arranging wedding favors for the guests."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/te657xtView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nFollow-up: After the wedding, follow up with the couple to ensure they were satisfied with the services and tie up any loose ends."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

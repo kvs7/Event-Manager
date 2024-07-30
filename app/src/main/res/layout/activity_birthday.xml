@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".birthday">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="414dp"
+        android:layout_height="73dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Birthday Planner"
+        android:textAlignment="center"
+        android:textColor="#48FF16"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="656dp"
+        android:paddingLeft="20sp"
+        android:paddingRight="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSet a Date and Time: Choose a date and time that works for the birthday person and important guests. Consider weekends or days when most people are likely to be available."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSelect a Venue: Decide on a suitable venue based on the number of guests and the type of party you want to host. It could be at home, a restaurant, a park, a community hall, or any other appropriate location."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nChoose a Theme: Consider having a theme for the birthday party, especially if it's for a child or someone who loves a particular character, hobby, or interest. A theme can add a fun and cohesive element to the celebration."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCreate Invitations: Design and send out invitations to the guests. You can go with traditional printed invitations, digital invitations, or a combination of both. Make sure to include the date, time, venue, RSVP details, and any special instructions related to the theme."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nPlan the Decorations: Coordinate decorations that match the chosen theme. This may include balloons, banners, table settings, and other decorative elements. You can either purchase pre-made decorations or get creative and make your own."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nOrganize Food and Drinks: Decide on the menu, including the birthday cake. If you're hosting the party at a venue, check if they offer catering services. Otherwise, consider hiring a caterer or preparing the food yourself. Ensure you accommodate any dietary restrictions of the guests."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nArrange Entertainment: Plan activities and entertainment suitable for the age group and preferences of the birthday person. It could be games, a DJ, a live band, a magician, or any other form of entertainment that aligns with the theme."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nPrepare a Timeline: Create a detailed timeline for the party, including when guests will arrive, when food will be served, when the cake will be cut, and when specific activities will take place."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nParty Favors: Consider giving small party favors to guests as a token of appreciation for attending the celebration. Party favors can also tie into the party's theme."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCapture Memories: Arrange for photography or designate someone to capture photos and videos throughout the event. This way, you'll have lasting memories of the birthday celebration."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nEnsure Safety Measures: If the party involves children or any potentially hazardous activities, prioritize safety. Have adults supervising, and take any necessary precautions to prevent accidents."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nConfirm RSVPs: Follow up with guests who haven't responded to the invitations to get a final headcount. This will help you with food and seating arrangements."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSetup and Cleanup: On the day of the party, arrive early to set up the venue and decorations. After the event, clean up the space and return any borrowed items promptly."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nEnjoy the Celebration: Finally, relax, and enjoy the birthday celebration along with the guests and the birthday person. Be present to ensure everything runs smoothly and that everyone has a great time."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

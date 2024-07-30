@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".getTgt">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="414dp"
+        android:layout_height="73dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Get Together Planner"
+        android:textAlignment="center"
+        android:textColor="#48FF16"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="656dp"
+        android:paddingLeft="20sp"
+        android:paddingRight="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/g1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nDefine the Purpose: Determine the purpose of the get-together. Is it a casual gathering, a special celebration, or a themed event? Knowing the purpose will guide the rest of your planning process."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCreate a Guest List: Compile a list of potential attendees. Consider the size of the gathering and the capacity of the venue you have in mind. Reach out to guests to gauge their interest and availability."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nChoose a Date and Time: Select a date and time that works best for most of the guests. Consider weekends or evenings when people are more likely to be available."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSelect a Venue: Decide on an appropriate location for the get-together. It could be at your home, a park, a beach, a community center, or any other suitable place that can accommodate the number of guests and activities you have planned."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nPlan the Activities: Depending on the purpose and theme of the get-together, organize activities to keep guests entertained and engaged. It could be games, a potluck, a BBQ, a movie night, or simply time for mingling and catching up."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSend Invitations: Send out invitations well in advance, either digitally or traditionally, to ensure maximum attendance. Include important details such as the date, time, venue, RSVP information, and any specific instructions or requests."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nOrganize Food and Drinks: Decide on the food and beverage options for the get-together. Depending on the size and formality, you can prepare the food yourself, have a potluck where everyone brings a dish, or hire a catering service."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCoordinate Supplies and Decorations: If necessary, arrange for party supplies and decorations that suit the theme or ambiance you want to create. Keep it simple and aligned with the purpose of the get-together."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nPlan for Seating and Comfort: Ensure that there are enough seating arrangements for the guests and provide some shaded or indoor space in case of unexpected weather changes."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nAssign Responsibilities: If possible, delegate tasks to willing friends or family members to help with different aspects of the get-together planning, such as food preparation, setup, and cleanup."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCommunication and Reminders: Stay in touch with the guests leading up to the event to remind them about the get-together and share any updates or changes in plans."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nConfirm RSVPs: Follow up with guests who haven't responded to the invitations to get a final headcount. This will help you with food and seating arrangements."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nPrepare for Weather: If the get-together is outdoors, have a backup plan in case of bad weather. Consider renting a tent or having an indoor backup venue ready."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSetup and Cleanup: On the day of the get-together, arrive early to set up the venue and decorations. After the event, ensure proper cleanup to leave the space as you found it."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/g15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nEnjoy the Get-Together: Finally, relax, and enjoy the get-together along with your guests. Be a gracious host and create a welcoming atmosphere for everyone to have a great time."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

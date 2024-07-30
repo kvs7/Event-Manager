@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".pooja">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="414dp"
+        android:layout_height="73dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Pooja Planner"
+        android:textAlignment="center"
+        android:textColor="#48FF16"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="656dp"
+        android:paddingLeft="20sp"
+        android:paddingRight="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/p1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nUnderstand the Purpose: Determine the purpose and significance of the pooja. Is it for a specific occasion, a milestone, or a general prayer? Understanding the purpose will help you select the appropriate rituals and deities to be worshiped."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nChoose an Auspicious Date and Time: Consult with a priest or refer to religious calendars to select an auspicious date and time for the pooja. Consider factors like the position of celestial bodies, planetary alignments, and any specific religious or astrological significance."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSelect the Venue: Decide whether the pooja will be conducted at home, a temple, or any other designated place. Ensure that the venue is clean, peaceful, and suitable for the pooja."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nInvite the Priest: If you're not familiar with the pooja rituals, consider inviting a knowledgeable and experienced priest to lead the ceremony. Discuss the details of the pooja with the priest in advance"
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCreate a List of Rituals: Prepare a list of rituals and offerings that will be part of the pooja. These may include lighting a lamp (diya), reciting mantras, offering flowers, fruits, and other items to deities, and performing specific ceremonies."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nArrange Pooja Items: Gather all the necessary pooja items and materials, such as incense sticks, camphor, holy water, flowers, fruits, sacred threads (raksha), and any specific items required for the chosen pooja."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nClean and Decorate the Venue: Clean and decorate the pooja venue with flowers, rangoli (decorative patterns), and other traditional decorations. This will create a serene and sacred ambiance."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nInform and Invite Guests: Inform family members and close friends about the pooja, especially if you wish to include them in the ceremony. Provide details about the date, time, and location."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nPrepare Prasad (Offerings): Plan and prepare the prasad (blessed food) that will be offered to the deities during the pooja. Ensure it adheres to any dietary restrictions or preferences of the guests."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSetup Pooja Accessories: Arrange the altar with idols or images of the deities to be worshiped. Place all the pooja items neatly on the altar for easy access during the ceremony."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nFollow Pooja Etiquette: Familiarize yourself with the proper etiquette and conduct during the pooja. Maintain silence and focus on the divine throughout the ceremony."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCapture Moments: If appropriate, designate someone to take photos or videos of the pooja to preserve the memories of the sacred occasion."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nThank the Priest and Guests: Show gratitude to the priest for conducting the pooja and thank all the guests for their participation and blessings."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nProper Disposal: Dispose of the pooja materials and offerings appropriately, following religious and environmental guidelines."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/p15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nReflection and Prayer: After the pooja, take some time for personal reflection and prayer, expressing gratitude and seeking blessings for the future."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

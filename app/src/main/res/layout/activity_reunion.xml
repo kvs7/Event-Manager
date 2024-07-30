@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Reunion">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="414dp"
+        android:layout_height="73dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Reunion Planner"
+        android:textAlignment="center"
+        android:textColor="#48FF16"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="656dp"
+        android:paddingLeft="20sp"
+        android:paddingRight="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Define the Purpose: Determine the purpose of the reunion. Is it a family gathering, a school reunion, or a friends' get-together? Knowing the purpose will help guide the rest of the planning process."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView188"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCreate a Guest List: Compile a list of potential attendees. Reach out to key individuals or groups to gauge interest and availability. You can use social media, email, or phone calls to collect contact information."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8019"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nWedding Venue: Help the couple choose a suitable venue based on their preferences, guest count, and budget. Arrange visits to potential locations and negotiate contracts."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textV9iew19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nChoose a Date and Location: Find a suitable date and location for the reunion. Consider factors like accessibility for guests, cost, and the availability of accommodation if needed. Try to pick a date well in advance to give attendees time to plan."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t880extView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSet a Budget: Establish a budget for the reunion. This will help you determine what activities and amenities you can provide, and it will also give attendees an idea of the cost to participate."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text88View19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSelect Activities: Plan activities that cater to various interests and age groups. Depending on the reunion type, you could have games, sightseeing tours, workshops, or simply time for mingling and catching up."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/te6876xtView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSend Invitations: Send out invitations well ahead of time to ensure maximum attendance. You can use digital invites or traditional mailed invitations, depending on the preferences of your guests."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex45t83View19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nOrganize Accommodation: If guests are coming from out of town, arrange for group discounts at nearby hotels or rental properties. Ensure there are enough options to accommodate everyone's needs and budget."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex45tVi658ew19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nArrange Food and Drinks: Coordinate catering or restaurant reservations for group meals during the reunion. Take into account dietary preferences and restrictions of your guests."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex45565tView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCreate Memory Keepsakes: Consider creating memory keepsakes, such as customized t-shirts or small mementos, to commemorate the event and provide attendees with a tangible reminder of the reunion."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex45tVi76ew19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n"
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex45tV87iew19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nPlan for Entertainment: Depending on the size and type of reunion, you might want to arrange for entertainment, such as live music, a DJ, or interactive games."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex45tV65iew19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nHave a Registration Process: Set up a registration process to keep track of attendees and manage logistics. Use online tools or event management platforms to simplify the process."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex45tVie786w19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nAssign Responsibilities: If possible, delegate tasks to a team or volunteers to help with different aspects of the reunion planning, such as registration, photography, or organizing specific activities."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex45t756View19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCreate a Communication Channel: Set up a communication channel to keep attendees informed about updates, changes, and any additional information they need to know leading up to the event."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex45tV76i786ew19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nConfirm Details: As the reunion date approaches, confirm all reservations, bookings, and arrangements to ensure a smooth experience for everyone involved."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tex45t8758View19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nEnjoy the Reunion: Finally, enjoy the reunion with your guests! Take photos, encourage interactions, and ensure everyone feels welcome and included."
+                android:textColor="#48FF16"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
